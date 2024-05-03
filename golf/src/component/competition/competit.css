@@ -1,0 +1,58 @@
+.competit-comp{
+    background: rgb(224, 224, 224);
+    height: 30rem;
+    width: 100vw;
+    margin: 3rem 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.competit-title{
+    font-size: .85rem;
+    width: 33rem;
+    line-height: 20px;
+    padding: 2.5rem 1rem;
+    color: rgb(116, 115, 115);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.compet-time{
+    background: #7e9d10;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width: 20rem;
+    height: 100%;
+}
+.glorious{
+    padding: .5em 2.5rem;
+    color: white;
+    font-size: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nextmatch{
+    color: #fff;
+    font-size: 2rem;
+}
+.mt-date-time{
+    display: flex;
+    padding: .15rem 0;
+}
+.mt-date{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background: #6b860e;
+    color: white;
+    padding: .6rem .7rem .9rem .7rem;
+    font-weight: lighter;
+}
+.mt-time{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    font-size: .9rem;
+    background: #78950f;
+    width: 9.9rem;
+    padding: 0 .8rem 0 .6rem;
+    color: white;
+}

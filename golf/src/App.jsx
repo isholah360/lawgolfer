@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
+import Coabou from './component/about/coabou'
+import Competit from './component/competition/competit'
+import Header from './component/header/header'
+import Navi from './component/navigate/navigate'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-      Hello Golfers 
+    <Navi/>
+    <Header/>
+    <Coabou/>
+    <Competit/>
     </>
   )
 }

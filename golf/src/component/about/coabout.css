@@ -1,0 +1,38 @@
+.cobout{
+    margin: 4rem 0;
+    padding: 0 10%;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+.cobout-img{
+    height: 25rem;
+    width: 32rem;
+}
+.cobout-img img{
+    height: 100%;
+    width: 100%;
+}
+.cobout-cont{
+    background: #152229;
+    color:gray;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem 3rem 2rem ;
+    height: 15rem;
+    position: absolute;
+    right: 13rem;
+    top: 3rem;
+}
+.cobout-cont span{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1.5rem 0;
+}
+.cobout-cont
+.cobout-cont
