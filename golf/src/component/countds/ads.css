@@ -1,0 +1,105 @@
+.the-second-ds{
+    background-image: url("./assets/go4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.thead-cover{
+    height: 25vh;
+    width: 100%;
+    padding: 2rem 5%;
+    background: rgb(0, 0,0, .65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    color: rgb(235, 235, 235);
+}
+.adscontent-sec span{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Alex Brush;
+}
+.adscontent-sec div{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family:  Oswald;
+  }
+  .sec-adsimg{
+    width: 12rem;
+  }
+  .sec-adsimg img{
+    width: 100%;
+  }
+  .count-down-ads{
+    display: flex;
+  }
+  .count-down-ads div{
+    background: gray;
+    font-family:  Oswald;
+    font-size:3rem ;
+    margin: 0 .25rem;
+    padding: .3rem .8rem;
+    border: none;
+    border-radius: 10px;
+  }
+  .power-by{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+.power-img{
+  width: 12rem;
+  
+}
+.power-img img{
+    width: 100%;
+}
+.buton button{
+    padding: .5rem 1.8rem;
+    border-style: none;
+    border-radius: 10px;
+    color: white ;
+    background: #6b860e;;
+}
+@media screen and (max-width: 760px) {
+    .the-second-ds{
+       overflow-x: hidden;
+       margin: 0rem 0 9rem 0;
+    }
+    .thead-cover{
+       flex-direction: column;
+       height: 80vh;
+       text-align: center;
+       padding: 4rem 0; 
+    }
+    .power-img img{
+        margin-top: -5rem;
+    }
+    .sec-adsimg img{
+        display: none;
+    }
+    .adscontent-sec span{
+        font-size: 1.5rem;
+    }
+      .adscontent-sec div{
+          font-size: 1.5rem;
+    }
+    .count-down-ads div{
+        font-size:3rem ;
+        margin: 0 .25rem;
+        padding: .2rem .5rem;
+    }
+    .golftour{
+        padding: .5rem 0;
+    }
+    .power-img{
+        width: 18rem;
+        
+      }
+    .power-by{
+        margin-top: -8rem;
+      }
+}

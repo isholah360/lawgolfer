@@ -1,0 +1,132 @@
+.plcard{
+    padding: 1.8rem 5rem;
+    background-color: rgb(22,22,22);
+    font-size: 1rem;
+    color: lightgrey;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plcard div{
+    margin: .5rem 0;
+}
+.standard{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.amount{
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+.plcard button{
+    background:  #6b860e;
+    padding: 12px 35px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    margin: 1rem 0;
+}
+.pln-title{
+    font-size: 1.5rem;
+    color:  #6b860e;;
+}
+.pln-complete{
+    padding: 3rem 0 0 0;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f3f3f3;
+    overflow-x: hidden;
+    
+}
+.the-plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    padding: 3rem 5%;
+    gap: 1.5rem;
+}
+.select-pln{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+.promopln{
+    height: 25vh;
+    width: 100vw;
+    background: gray;
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 5%;
+    color: lightgray;
+    font-weight: bold;
+}
+.pro-fone-mil{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: .5rem 0;
+}
+.join-memb-button button{
+   padding: .9rem 2rem;
+   background-color:  #6b860e;
+   color: white;
+   border-style: none;
+   border-radius: 10px;
+   margin: 0 10px;
+   font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+    .plcard{
+        padding: 2rem 5rem;
+    }
+    .pln-complete{
+        overflow-x: hidden;
+    }
+    .standard{
+        font-size: 2rem;
+    }
+    .the-plans{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-content: center;
+        gap: 1.5rem;
+    }
+    .select-pln{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 2rem;
+    }
+    .promopln{
+        flex-direction: column;
+        height: 45vh;
+        gap: 1rem;
+        font-size: 1.5rem;
+        padding: 0 5%;
+    }
+    .mnth-mem{
+        padding: 0 5%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .plcard{
+        height: 35rem;
+        max-width: 17rem;
+    }
+ 
+
+}

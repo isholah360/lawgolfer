@@ -1,0 +1,128 @@
+.team-complete {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 5% 3rem 5%;
+  
+}
+.active-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+    padding: 3rem 5% 2rem 5%;
+}
+.prof-team{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -2rem;
+}
+.icon-random {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+.the-random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.active-mem {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.icon-random .the-random {
+  font-size: 4rem;
+  font-weight: bold;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.the-icon img {
+  width: 3.5rem;
+  filter: invert(38%) sepia(21%) saturate(5260%) hue-rotate(52deg)
+    brightness(99%) contrast(89%);
+}
+.the-random span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b860e;
+}
+.rand-active {
+  display: flex;
+  align-items: center;
+}
+.feature-team{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    
+}
+.meet-ourteam{
+    padding: 1.5rem 1.5rem;
+}
+.meet-ourteam .our-team{
+    color: #6b860e;
+}
+.meet-ourteam .aweseom-team{
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding: .7rem 0;
+    
+}
+.meet-ourteam .team-content{
+    font-size:  .9rem;
+    line-height: 20px;
+}
+.meet-ourteam button{
+    background-color: #6b860e;
+    padding: .6rem 1rem;
+    margin: .7rem 0;
+    border-style: none;
+    border-radius:10px ;
+    color: white;
+}
+@media screen and (max-width: 760px) {
+   .team-complete{
+    overflow-x: hidden;
+   }
+    .active-grid{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10% 0 5%;
+        overflow-x: hidden;
+    }
+    .the-icon img {
+        width: 1.6rem;
+        filter: invert(38%) sepia(21%) saturate(5260%) hue-rotate(52deg)
+          brightness(99%) contrast(89%);
+          overflow-x: hidden;
+      }
+      .icon-random .the-random {
+        font-size: 2rem;
+       
+      }
+      .icon-random{
+       gap: .5rem;
+       overflow-x: hidden;
+      }
+      .team-complete {
+        padding: 3rem 5%;
+        overflow-x: hidden;
+      }
+      .feature-team{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .prof-team{
+      text-align: center;
+      font-size: 2rem;
+      
+  }
+  .active-mem {
+    font-size: .8rem;
+   
+  }
+    }

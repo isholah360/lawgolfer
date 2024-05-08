@@ -1,0 +1,66 @@
+.recent-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem 10%;
+}
+.gallery-title .gall-latest{
+   font-size: 2rem;
+   font-weight: bold;
+}
+.gallery-title .gall-amazing{
+    color: #6b860e;
+    padding: 1.2rem 0 .8rem 0;
+ }
+.img-flex{
+    height: 20rem;
+    position: relative;
+    overflow-x: hidden;
+}
+.img-flex div h1{
+    position: relative;
+    top: 0;
+}
+.slider-container{
+    padding: 0 5%;
+    
+}
+.golfer-show{
+    height: 14rem;
+    max-width: 21rem;
+}
+.golfer-show img{
+    height: 100%;
+    width: 100%;
+    margin: 0 1rem;
+
+}
+.recent-ds{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    height: 13rem;
+    width: 70vw;
+    padding: 0 10%;
+}
+.recent-ds img{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 760px) {
+    .slider-container{
+        padding: 0 5% 0 5%; 
+        
+    }
+    .golfer-show img{
+        height: 100%;
+        width: 100%;
+        margin: 0 .5rem;
+    
+    }
+}

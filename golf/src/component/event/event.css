@@ -1,0 +1,91 @@
+.event-complete{
+    background-color: #142127;
+    padding: 5rem 5% 4rem 0;
+    overflow-x: hidden;
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.event-complete .our-event{
+    color: #6b860e; 
+}
+.let-plan{
+    font-size: 2rem;
+    font-weight: bold;
+    color:gray;
+    padding: 1rem 0 1rem 0;
+}
+.the-main-event{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: left;
+    padding: 2rem 0;
+    gap: 3rem;
+}
+.the-event-date{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    gap: 5rem;
+    text-align: left;
+    font-size: .9rem;
+    font-weight: lighter;
+    padding: 1rem 0 2rem 0;
+}
+.eve-time-date{
+    font-weight: lighter;
+}
+.eve-time-date .event-date{color: #e08f5c; width:8rem; font-size: .8rem;}
+.eve-time-date .event-time{color: #e08f5c; text-align: left;font-size: .8rem;}
+.event-desc-name .event-name{color: gray; font-size: .8rem;}
+.event-desc-name .event-descript{color: gray;font-size: .8rem; line-height: 18px; }
+
+.the-event-date button{
+    background-color: #6b860e;
+    border-style: none;
+    padding: 10px 1rem;
+    color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width: 760px) {
+    .event-complete{
+        overflow-x: hidden;
+    }
+    .the-main-event{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        padding: 2rem 01rem;
+        gap: 1rem;
+    }
+    .the-event-date{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        font-size: .9rem;
+        gap: .5rem;
+    }
+    .event-golfer-img{
+       width: 15rem;
+       margin: 0 -3rem;
+    }
+    .event-golfer-img img{
+        width: 100%;
+        margin: 0 -3rem;
+     }
+    .let-plan{
+        font-size: 1.5rem;
+    }
+    .eve-time-date{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .event-descript{
+        padding: 1.2rem 0;
+    }
+    .event-time{
+        padding: .5rem 0;
+    }
+}

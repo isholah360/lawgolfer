@@ -1,0 +1,70 @@
+.comp-card-comp{
+    display:grid; 
+    padding: 1rem 10% 1rem 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    margin: 0 1rem;
+}
+.scores{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.match-cousre{
+    text-align: center;
+    padding: 1rem 0;
+}
+.card-img{
+    width: 13rem;
+    height: 15rem;
+}
+.card-img  img{
+    width: 100%;
+    height: 100%;
+}
+.name-social{
+    background: #142127;
+    height: 4rem;
+    width: 13rem;
+   
+}
+.name-social{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.play-social{
+    display: flex;
+    gap: .4rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 79%;
+    width: 100%;
+    background: rgb(0,0,0, .5);
+    top: 0%;
+    display: none;
+
+    
+}
+.play-social img{
+    width: 1.5rem;
+    padding: 6rem 0rem;
+    margin: 0 .3rem;
+    filter: invert(100%) sepia(0%) saturate(7405%) hue-rotate(44deg)
+    brightness(108%) contrast(101%);
+}
+.play-name{
+    color: white;
+}
+.candit-one{
+    position: relative;
+    width: 13rem;
+}

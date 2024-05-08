@@ -1,0 +1,64 @@
+.ecom-complete{
+    background: #142127;
+    padding: 3rem 5%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+
+.the-ecom-crd{
+    background: white;
+    padding: 0 1rem .8rem 1rem;
+    margin:0 .4rem;
+    width:15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #6b860e;
+}
+.feuture-product{
+    font-size: 1.5rem;
+    margin: 3rem 0 1.5rem 0;
+    color:  #6b860e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.select-perfect-pro{
+    margin: .7rem 0;
+    font-size: 2rem;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.the-ecom-crd div{
+    padding: .4rem 0;
+}
+.ecom-price{
+    font-weight: bold;
+}
+.ecom-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 760px) {
+    .ecom-complete {
+        overflow: hidden;
+    }
+    .ecom-complete .first-dd{
+        width: 20rem;
+    }
+    .ecom-complete .first-dd img{
+        width: 100%;
+    }
+    .ecom-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5rem;
+        margin: 1rem 0;
+    }
+    .select-perfect-pro{
+     
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+}

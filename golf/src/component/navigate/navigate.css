@@ -1,11 +1,13 @@
 .naviagtion{
     height: 10vh;
-    background-color:lightgrey;
-    color: ;
-    padding: 0.3rem 2.5rem;
+    background-color: #142127;
+    color:#6b860e;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 4rem;
+    margin: 0 0;
 }
 .naviagtion .logo-link{
     font-size: 1.5rem;
@@ -22,7 +24,7 @@
 .navigate-list ul li{
     margin: 0 1rem;
     list-style: none;
-    font-weight: 500;
+    font-weight: 550;
 }
 .farbar, .close, .the-mobile{
     display: none;
@@ -51,15 +53,29 @@
    width: 100%;
    border-radius: 50%;
  }
+ .logo-link{
+    width: 11.5rem;
+ }
+ .logo-link img{
+    width: 100%;
+ }
+ .login-but{
+    background: #6b860e; 
+    padding:.5rem 0rem .5rem 0rem;
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    font-weight: 500;
+    display: none;
+ }
+ li a{
+    text-decoration: none;
+    color: #6b860e;
+ }
 @media screen and (max-width: 760px) {
     .naviagtion{
-        width: 80vw;
-        height: 3vh;
-        background-color: rgb(239, 91, 133) ;
-        color: brown;
-        margin: 10px auto;
-        padding: 0rem 0 2.3rem 0;
-        border-radius: 30px;
+        background-color: #142127;
+        padding:  0rem 0 2rem 0;
         display: flex; 
         position: relative;
         flex-direction: column;
@@ -79,7 +95,7 @@
     .navigate-list ul{
         display: block;
         margin-top: -1rem;
-        padding: 2rem 5rem 6rem 1rem;
+        padding: 9rem 5rem 6rem 1rem;
         height: 100vh;
         position: relative;
         text-align: left;
@@ -90,13 +106,14 @@
         margin: .8rem 1rem;
         list-style: none;
         padding: 0rem 0;
-        font-weight: 500;
+        font-weight: 550;
+
     }
     .close{
         font-size: 1.5rem;
         position: absolute;
         display: block;
-        margin: 0rem 0 3rem 0; 
+        margin: 2rem 0 3rem 0; 
         padding: 0rem 0 3rem 0; 
         top: 10px;
         right: 2.2rem;
@@ -105,7 +122,7 @@
     .farbar div{
         height: 3px;
         width: 30px;
-        background-color: white;
+        background-color: #6b860e;
         margin: 4px 0;
         
     }
@@ -114,6 +131,7 @@
         display: block;
         top: .5rem;
         right: 2rem;
+        top: 1.8rem;
     }
     .app-link{
         display: none;
@@ -124,7 +142,7 @@
         margin: 1rem 1rem;
     }
     .mobile-logout div{
-        background-color: rgb(239, 91, 133) ;
+       
         color: white;
         padding: 3px 20px;
         border-radius: 5px;
@@ -132,7 +150,6 @@
     }
     .the-mobile button{
        color: white;
-       background-color: rgb(239, 91, 133) ;
        padding: 0.3rem 1rem;
     }
     .account{
@@ -149,8 +166,10 @@
     .account button{
         display: block;
         color: white;
-       background-color: rgb(239, 91, 133) ;
        padding: 0.3rem 1rem;
        margin: 3rem .5rem 2.5rem .8rem;
+     }
+     .login-but{
+        display: block;
      }
 }

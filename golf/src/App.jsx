@@ -1,21 +1,19 @@
 
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Coabou from './component/about/coabou'
-import Competit from './component/competition/competit'
-import Header from './component/header/header'
 import Navi from './component/navigate/navigate'
+import Lognav from './component/loginnv/lognav'
+
 
 
 function App() {
- 
 
   return (
     <>
+    <Lognav/>
     <Navi/>
-    <Header/>
-    <Coabou/>
-    <Competit/>
+    <Outlet/>
     </>
   )
 }

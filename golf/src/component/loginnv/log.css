@@ -1,0 +1,35 @@
+.lognvg{
+    background: #6b860e;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0rem 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.media-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin: .5rem 0;
+}
+.log-out{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.log-out a{
+   text-decoration: none;
+}
+.log-out a div{
+    color: white;
+    margin: 0 .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 760px) {
+    .lognvg{
+        display: none;
+    }
+}

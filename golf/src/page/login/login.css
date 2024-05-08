@@ -1,0 +1,52 @@
+
+.compl-form{
+    background-image: url("assets/goa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.form-logcover{
+    background: rgb(17, 17, 17, .8);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+div div input{
+    padding: .7rem 6rem .7rem .3rem;
+    margin: .7rem 0;
+    outline-style: none; 
+    border: none;
+    border-radius: 5px;
+}
+div label{
+    padding: .8rem 0;
+    margin: .5rem 0;
+    text-align: left;
+    color: white;
+}
+
+form  div button{
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    background:  #6b860e;;
+    width: 100%;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+.the-regbutton{
+  text-align: center;
+  min-width: 4rem;
+
+}
+@media screen and (max-width: 760px) {
+    .form-logcover{
+       overflow-x: hidden;
+    }
+    .compl-form{
+        overflow-x: hidden;
+    }
+}
